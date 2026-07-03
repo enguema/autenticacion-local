@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sesione-cookie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+370895b46857ef442f18fda865e1230e206d0df1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f608cd030fd9164665c8e6286f600528f72c917e")]
 [assembly: System.Reflection.AssemblyProductAttribute("sesione-cookie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sesione-cookie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
