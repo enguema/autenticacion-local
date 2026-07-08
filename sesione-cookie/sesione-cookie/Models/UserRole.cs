@@ -8,5 +8,6 @@
 
         public Guid RoleId { get; set; }
         public Role Role { get; set; } = null!;
+        //con "null!" le decimos al controlador que posiblemete sea nulo. Así no nos pone advertencia
     }
 }

@@ -1,7 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using sesione_cookie.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Registrar EF con Postgres
+builder.Services.AddDbContext<Contexto>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 var app = builder.Build();
 

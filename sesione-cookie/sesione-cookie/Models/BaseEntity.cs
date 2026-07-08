@@ -6,7 +6,7 @@ namespace sesione_cookie.Models
     {
         [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
-        public bool IaActive { get; set; } = true;
+        public bool IsActive { get; set; } = true;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
         public DateTime CreatedBy { get; set; } = DateTime.UtcNow;
